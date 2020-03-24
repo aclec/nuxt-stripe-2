@@ -1,0 +1,74 @@
+{
+  "_from": "nuxt-stripe-module@^2.0.0",
+  "_id": "nuxt-stripe-module@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-O3bNVHwlmgKICl/ly2igdcOHFDRDg7m6dBuinFFLjrRwL4RuJ5bKRb/viE2yyV4gx7tEcvDXEA7QU0tadNKn3Q==",
+  "_location": "/nuxt-stripe-module",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nuxt-stripe-module@^2.0.0",
+    "name": "nuxt-stripe-module",
+    "escapedName": "nuxt-stripe-module",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nuxt-stripe-module/-/nuxt-stripe-module-2.0.0.tgz",
+  "_shasum": "42eadc82a78b760f4edce22987dd9ea861075f2e",
+  "_spec": "nuxt-stripe-module@^2.0.0",
+  "_where": "G:\\DEV\\odylae\\web",
+  "bugs": {
+    "url": "https://github.com/WilliamDASILVA/nuxt-stripe-module/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "WilliamDASILVA",
+      "email": "william.da.silva@outlook.com"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "NuxtJS module for Stripe.js",
+  "devDependencies": {
+    "nuxt-module-builder": "latest"
+  },
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/WilliamDASILVA/nuxt-stripe-module#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lib",
+      "test"
+    ]
+  },
+  "license": "MIT",
+  "main": "lib/module.js",
+  "name": "nuxt-stripe-module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamDASILVA/nuxt-stripe-module.git"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "test": "npm run lint && jest"
+  },
+  "version": "2.0.0"
+}
