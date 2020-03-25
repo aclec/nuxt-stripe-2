@@ -1,6 +1,6 @@
 {
   "name": "nuxt-stripe-2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nuxt Stripe Plugin",
   "main": "./lib/module.js",
   "directories": {
